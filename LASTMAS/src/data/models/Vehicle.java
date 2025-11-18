@@ -10,7 +10,22 @@ public class Vehicle {
     private String plateNumber;
     private Owner owner;
     private Year year;
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
+    }
+
+    private int Id;
     private List<Ticket> tickets;
+
+
+
+   // public Vehicle(int id, String model) {
+    // }
 
 
     public String getName() {
