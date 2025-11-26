@@ -3,10 +3,11 @@ package services;
 import data.models.Officer;
 import data.models.Ticket;
 import data.models.Vehicle;
+import dtos.requests.
+        RegisterOfficerRequest;
+import dtos.responses.RegisterOfficerResponse;
 
 public interface OfficerServices {
-void registerOfficer(Officer officer);
-void bookVehicleOwner(Vehicle vehicle);
-void  issueTicketForTrafficOffence(Ticket ticket);
+RegisterOfficerResponse registerOfficer(RegisterOfficerRequest request);
 
 }

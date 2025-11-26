@@ -1,8 +1,8 @@
 package data.repositories;
-
 import data.models.Officer;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class Officers implements OfficerRepository {
 

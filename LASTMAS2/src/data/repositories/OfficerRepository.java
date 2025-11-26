@@ -1,6 +1,7 @@
 package data.repositories;
-
 import data.models.Officer;
+
+
 import java.util.List;
 
 public interface OfficerRepository {

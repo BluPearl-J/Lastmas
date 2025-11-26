@@ -1,5 +1,7 @@
 package data.models;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.Year;
 import java.util.List;
 
@@ -10,6 +12,15 @@ public class Vehicle {
     private String plateNumber;
     private Owner owner;
     private Year year;
+    private LocalDateTime registrationDate = LocalDateTime.now();
+
+    public LocalDateTime getRegistrationDate() {
+        return registrationDate;
+    }
+
+    public void setRegistrationDate(LocalDateTime registrationDate) {
+        this.registrationDate = registrationDate;
+    }
 
     public int getId() {
         return Id;
